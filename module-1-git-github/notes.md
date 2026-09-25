@@ -14,7 +14,7 @@
 ---
 
 ## Key vocabulary (in your own words)
-
+git status
 - repository: a project that needs to be done
 - commit: check the history of the changes you have made 
 - branch: i can work on something without changing the main project
