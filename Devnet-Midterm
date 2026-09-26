@@ -1,0 +1,79 @@
+"""
+Midterm Practical Exam — Network Device Inventory Tool
+Student: [Joy Nisperos]
+"""
+
+=== Network Device Inventory ===
+1. Add a device
+2. View all devices
+3. Count active vs inactive devices
+4. Find a device by name
+5. Exit
+Choose an option:
+
+devices = []  # starts empty — the user adds devices as the program runs
+device_list = ["add_device", "view_devices", "count_active_inactive", "find_device", "remove_device"]
+
+def display_menu():
+    print ("Menu") # print the menu, return the user's choice
+   
+display_menu()
+    pass
+
+def add_device(device_list):
+    print ("device name" , "IP', "Status")# ask for name, IP, status — build the string, add to the list
+
+add_device()
+    pass
+
+def view_devices(device_list):
+    # loop through and print every device — handle empty list
+
+view_devices()
+    pass
+
+def count_active_inactive(device_list):
+    # loop through, count Active vs Inactive, return both
+count_active_inactive()
+    pass
+
+def find_device(device_list):
+    # ask for a name, search the list, print result or "not found"
+find_device()
+    pass
+
+# BONUS (optional)
+def remove_device(device_list):
+    # your code here
+remove_device()
+    pass
+
+def main():
+    running = True
+    while running:
+        choice = display_menu()
+    running = False
+        choice = Exit
+        
+    choice = input 
+    print ( 1. Add a device )
+    elif 
+    print ( 2.View all devices)
+    elif 
+    print ( 3. Count active vs inactive devices)
+    elif 
+    print ( 4. Find a device by name)
+    elif 
+    print (5. Exit )
+    print (Choose an option:)
+
+        # use if/elif to call the right function based on choice
+        # running = False when the user picks Exit
+
+main()
+
+
+
+
+
+
