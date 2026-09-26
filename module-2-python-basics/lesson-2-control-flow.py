@@ -58,4 +58,3 @@ HOW THIS CONNECTS TO SOMETHING ELSE
 [Control flow is connected to variables and data types because
 values are stored in variables.]
 """
-git add module-2-python-basics/lesson-2-control-flow.py
