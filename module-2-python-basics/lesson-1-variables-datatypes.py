@@ -48,7 +48,7 @@ print("Currently a student:", is_student)
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
 [I usually forget are quotation mark and comma.
- It is important to check these simple symbols becuase 
+ It is important to check these simple symbols because 
  not putting in quotation mark will make the data type 
  into another variable.]
 

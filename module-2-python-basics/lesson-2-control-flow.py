@@ -1,22 +1,23 @@
 """
 Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Student: [Joy Nisperos]
+Date: [September 26,2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[Control Flow makes decisions that is based on conditions.
+condition that is True or False]
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- condition:
-- if / elif / else:
-- comparison operator:
-- boolean expression:
+- condition: need to check to make a decision 
+- if / elif / else: these are statements use to choose which block of code to run
+- comparison operator: symbols use to compare values (==,>,<,>=, or <=)
+- boolean expression: espressions that results can be True or False
 (add more as needed)
 
 
@@ -27,6 +28,17 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
+score = 88
+
+if score >= 90:
+    print("Excellent!")
+elif score >= 80:
+    print("Very Good!")
+elif score >= 75:
+    print("You passed.")
+else:
+    print("You failed!")
+
 # --- your code example goes here ---
 
 
@@ -34,12 +46,15 @@ came up with yourself — not copied from class.
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[I usually encounter wrong placing or indention. 
+It is importtant to have the correct placing or
+indention to identify which statement belong in 
+which block (if,elif or else)]
 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+[Control flow is connected to variables and data types because
+values are stored in variables.]
 """
