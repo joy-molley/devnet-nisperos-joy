@@ -34,8 +34,8 @@ came up with yourself — not copied from class.
 
 name = "Joy"
 age = 37
-avarage_grade = 90.50
-is_ student 
+average_grade = 90.50
+is_student = True
 
 print("Name:", name)
 print("Age:", age)
