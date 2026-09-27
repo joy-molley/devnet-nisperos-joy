@@ -45,22 +45,25 @@ folders = {
 ".png": "Images"
 }
 
-for folder in folders.values():
-    os.makedirs(os.path.join(source_folder, folder), exist_ok=True)
-
 for filename in os.listdir(source_folder):
     file_path = os.path.join(source_folder, filename)
 
-if os.path.isfile(file_path):
-    extension = os.path.splitext(filename)[1].lower()
+    if os.path.isfile(file_path):
+        extension = os.path.splitext(filename)[1].lower()
 
-    if extension in folders:
-        destination_folder = os.path.join(
-            source_folder, folders[extension]
-        )
+        if extension in folders:
+            destination_folder = os.path.join(
+                source_folder,
+                folders[extension]
+            )
 
-        shutil.move(file_path, destination_folder)
+            destination = os.path.join(
+                destination_folder,
+                filename
+            )
 
+            shutil.move(file_path, destination)
+            
 print("Files sorted successfully!")
 
 # --- paste your existing code here ---
